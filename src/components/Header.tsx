@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { FC } from 'react';
+import Link from 'next/link';
 
 const Header: FC = () => {
   return (
@@ -12,7 +12,9 @@ const Header: FC = () => {
         </div>
         <ul className="flex flex-wrap items-center font-medium text-white sm:mt-0 align-center text-xl">
           <li>
-            <Link href="#projects" className="hover:underline">Projects.</Link>
+            <Link href="#projects" className="hover:underline">
+              Projects.
+            </Link>
           </li>
         </ul>
       </div>

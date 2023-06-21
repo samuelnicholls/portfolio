@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 const Footer: FC = () => {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="w-full bg-gray-800 border-t border-gray-200">
