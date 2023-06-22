@@ -9,7 +9,7 @@ export type CardProps = {
 
 const Card: FC<CardProps> = ({ project }) => {
   return (
-    <div className="mx-auto rounded-lg shadow bg-gray-800 border-gray-700">
+    <div className="max-w-sm mx-auto rounded-lg shadow bg-gray-800 border-gray-700">
       <div className='relative'>
         <Image
           src={project.image}
