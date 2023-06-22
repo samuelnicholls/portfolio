@@ -2,10 +2,11 @@
   "projects": [
     {
       "title": "Movie Listing",
-      "image": "sdsd",
-      "description": "sldksd",
-      "codeUrl": "skljdsd",
-      "demoUrl": "skjdskjdksd"
+      "image": "https://picsum.photos/382/250",
+      "imageAlt": "Screenshot of movie listing project.",
+      "description": "This is a NextJS web application that retrives the latest top rated movies and also allows the user to search for a movie of their choosing.",
+      "codeUrl": "https://github.com/samuelnicholls/movie-listing",
+      "demoUrl": "https://movie-listing-samuelnicholls.vercel.app"
     }
   ]
 }

@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         <h2 className="text-2xl md:text-4xl font-extrabold dark:text-white">
           Projects.
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-16 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 md:mt-16 mb-16">
           {projectData.projects.map((project: Project, index) => (
             <Card key={index} project={project} />
           ))}
