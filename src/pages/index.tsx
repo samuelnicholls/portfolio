@@ -2,6 +2,8 @@ import type { NextPage } from 'next';
 import Card from '@/components/Card';
 import { Project } from '@/types';
 import projectData from '../projectData.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"
 
 const Home: NextPage = () => {
   return (
@@ -15,11 +17,21 @@ const Home: NextPage = () => {
       <div className="max-w-2xl mx-auto mb-8 md:mb-16">
         <p className="mb-3 text-white text-lg md:text-xl">
           I&apos;m a Front-End Developer based in England, UK. Focused on
-          building intuitive and accessible applications with React &
+          building intuitive and accessible web applications with React &
           TypeScript.
         </p>
       </div>
-      <div id="projects">
+      <div id="contact">
+        <h2 className="text-2xl md:text-4xl font-extrabold dark:text-white">
+          Contact.
+        </h2>
+        <div>
+          <div className='w-6 h-6'>
+            <FontAwesomeIcon icon={faXTwitter} color='white' />
+          </div>
+        </div>
+      </div>
+      {/* <div id="projects">
         <h2 className="text-2xl md:text-4xl font-extrabold dark:text-white">
           Projects.
         </h2>
@@ -28,7 +40,7 @@ const Home: NextPage = () => {
             <Card key={index} project={project} />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

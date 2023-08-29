@@ -11,9 +11,14 @@ const Header: FC = () => {
           </span>
         </div>
         <ul className="flex flex-wrap items-center font-medium text-white sm:mt-0 align-center text-xl">
-          <li>
+          {/* <li className='mr-8'>
             <Link href="#projects" className="hover:underline">
               Projects.
+            </Link>
+          </li> */}
+          <li className='mr-8'>
+            <Link href="#contact" className="hover:underline">
+              Contact.
             </Link>
           </li>
         </ul>

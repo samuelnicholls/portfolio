@@ -2,11 +2,27 @@
   "projects": [
     {
       "title": "Movie Listing",
-      "image": "https://picsum.photos/382/250",
+      "image": "movie-listing.png",
       "imageAlt": "Screenshot of movie listing project.",
       "description": "This is a NextJS web application that retrives the latest top rated movies and also allows the user to search for a movie of their choosing.",
       "codeUrl": "https://github.com/samuelnicholls/movie-listing",
       "demoUrl": "https://movie-listing-samuelnicholls.vercel.app"
+    },
+    {
+      "title": "Memory Game",
+      "image": "memory-game.png",
+      "imageAlt": "Screenshot of memory game project.",
+      "description": "This is a memory game built using React where the user clicks on two tiles and if they match then they will stay shown.",
+      "codeUrl": "TODO",
+      "demoUrl": "TODO"
+    },
+    {
+      "title": "Trivia",
+      "image": "trivia.png",
+      "imageAlt": "Screenshot of memory game project.",
+      "description": "This is a NextJS web application that retrives a list of quiz questions for the user to answer.",
+      "codeUrl": "TODO",
+      "demoUrl": "TODO"
     }
   ]
 }
