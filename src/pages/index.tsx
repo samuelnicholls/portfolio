@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       </div>
       <div id="contact">
         <h2 className="text-2xl md:text-4xl font-extrabold dark:text-white">
-          Contact.
+          Contact. 
         </h2>
         <div>
           <div className='w-6 h-6'>
